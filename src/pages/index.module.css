@@ -1,0 +1,65 @@
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  background-color: #0d1117; /* GitHub Dark Mode Background */
+  color: #c9d1d9;
+  border-bottom: 1px solid #30363d;
+}
+
+.heroBanner h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.highlight {
+  color: var(--ifm-color-primary);
+}
+
+.heroBanner .button {
+  margin-top: 2rem;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.features {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.justifiedText {
+  text-align: left;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--ifm-font-color-base);
+  margin-bottom: 1.5rem;
+}
+
+.codeBlock {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: left;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.comment {
+  color: #8b949e;
+  font-style: italic;
+}
+
+.authorTitle {
+  color: #8b949e;
+  font-size: 0.95rem;
+}
+
+.authorLink {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
