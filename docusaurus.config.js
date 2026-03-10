@@ -32,6 +32,11 @@ const config = {
             label: 'LinkedIn', 
             position: 'right'
         },
+	{
+            href: 'https://github.com/dhnair/english-os',
+            label: 'GitHub',
+            position: 'right',
+        },
       ],
     },
     // Adding your custom admonition icons or styling here later
