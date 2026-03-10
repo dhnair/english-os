@@ -16,13 +16,25 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          cache: 'npm' # Automatically caches node dependencies
+
+      # Caches the Docusaurus Webpack outputs
+      - name: Cache Docusaurus Assets
+        uses: actions/cache@v4
+        with:
+          path: |
+            .docusaurus
+            node_modules/.cache
+          key: ${{ runner.os }}-docusaurus-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.css') }}
+          restore-keys: |
+            ${{ runner.os }}-docusaurus-
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci # Using 'ci' is faster and stricter than 'install' for pipelines
 
       - name: Build website
         run: npm run build
