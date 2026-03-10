@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">Day 16: Micro-Syntax (Pointers, Arrays, &amp; Checksums) | English OS</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://dhnair.github.io/english-os/modules/day_16"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Day 16: Micro-Syntax (Pointers, Arrays, &amp; Checksums) | English OS"><meta data-rh="true" name="description" content="Objective how to point to exact data volumes, how to sort arrays of modifiers, how to split phrasal verbs, and how to execute boolean check queries."><meta data-rh="true" property="og:description" content="Objective how to point to exact data volumes, how to sort arrays of modifiers, how to split phrasal verbs, and how to execute boolean check queries."><link data-rh="true" rel="canonical" href="https://dhnair.github.io/english-os/modules/day_16"><link data-rh="true" rel="alternate" href="https://dhnair.github.io/english-os/modules/day_16" hreflang="en"><link data-rh="true" rel="alternate" href="https://dhnair.github.io/english-os/modules/day_16" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Day 16: Micro-Syntax (Pointers, Arrays, & Checksums)","item":"https://dhnair.github.io/english-os/modules/day_16"}]}</script><link rel="stylesheet" href="/english-os/assets/css/styles.8fedf5b0.css">
-<script src="/english-os/assets/js/runtime~main.a31071dd.js" defer="defer"></script>
+<script src="/english-os/assets/js/runtime~main.347eda2f.js" defer="defer"></script>
 <script src="/english-os/assets/js/main.7414dc37.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -27,7 +27,7 @@
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="part-3-array-sorting-the-order-of-adjectives">Part 3: Array Sorting (The Order of Adjectives)<a href="#part-3-array-sorting-the-order-of-adjectives" class="hash-link" aria-label="Direct link to Part 3: Array Sorting (The Order of Adjectives)" title="Direct link to Part 3: Array Sorting (The Order of Adjectives)" translate="no">​</a></h2>
 <p>When you stack multiple modifiers (adjectives) before a noun, the English OS enforces a strict, unspoken sorting algorithm. If you input them in the wrong order, the syntax feels entirely broken to a native listener.</p>
-<p><strong>The Sorting Algorithm:</strong> <code>Opinion</code> $\rightarrow$ <code>Size</code> $\rightarrow$ <code>Age</code> $\rightarrow$ <code>Shape</code> $\rightarrow$ <code>Color</code> $\rightarrow$ <code>Origin</code> $\rightarrow$ <code>Material</code> $\rightarrow$ <code>Noun</code></p>
+<p><strong>The Sorting Algorithm:</strong> <code>Opinion</code> --&gt; <code>Size</code> --&gt; <code>Age</code> --&gt; <code>Shape</code> --&gt; <code>Color</code> --&gt; <code>Origin</code> --&gt; <code>Material</code> --&gt; <code>Noun</code></p>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Clean Code Examples</div><div class="admonitionContent_BuS1"><ul>
 <li class=""><strong>Opinion first, physical specs second:</strong> &quot;A <strong>powerful new 15-inch</strong> Mac.&quot; <em>(Not: A 15-inch new powerful Mac)</em>.</li>
 <li class=""><strong>Size before color/material:</strong> &quot;A <strong>small black plastic</strong> carrying case.&quot; <em>(Not: A plastic black small case)</em>.</li>
@@ -60,7 +60,7 @@
 <p><strong>3. (Checksum):</strong> &quot;The React components are ready for deployment, aren&#x27;t they ready?&quot;
 <em>(Hint: A checksum tag only uses the Aux Gate + Pronoun. Drop the extra words).</em></p>
 <p><strong>4. (Array Sorting):</strong> &quot;I bought a black new sleek Samsung T9 SSD.&quot;
-<em>(Hint: Sort by Opinion $\rightarrow$ Age $\rightarrow$ Color).</em></p>
+<em>(Hint: Sort by Opinion --&gt; Age --&gt; Color).</em></p>
 <p><strong>5. (Volume/Article):</strong> &quot;A traffic in Brookefield is always terrible at 6 PM.&quot;</p>
 <p><strong>6. (Code Splitting):</strong> &quot;I whipped up it in ten minutes before my workout.&quot;</p>
 <p><strong>7. (Checksum):</strong> &quot;The freelancer didn&#x27;t push the code to production, did he push?&quot;</p>
@@ -69,7 +69,7 @@
 <p><strong>9. (Code Splitting):</strong> &quot;The project manager is sick, so I am filling in him for today.&quot;
 <em>(Hint: &#x27;Fill in for&#x27; is an inseparable 3-part block. The pronoun must stay at the end here!)</em></p>
 <p><strong>10. (Array Sorting):</strong> &quot;We need to replace the wooden old broken desk in the office.&quot;
-<em>(Hint: Opinion $\rightarrow$ Age $\rightarrow$ Material).</em></p>
+<em>(Hint: Opinion --&gt; Age --&gt; Material).</em></p>
 <p><strong>11. (Checksum):</strong> &quot;You will follow up on the memory leak tomorrow, won&#x27;t you?&quot;
 <em>(Is this clean? Validate the Checksum logic).</em></p>
 <p><strong>12. (Volume/Article):</strong> &quot;I gave him an advice about optimizing his Python scripts.&quot;</p>
