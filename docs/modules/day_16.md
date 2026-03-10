@@ -46,7 +46,7 @@ So, how do you point to them? You have exactly four options, depending on the sc
 
 When you stack multiple modifiers (adjectives) before a noun, the English OS enforces a strict, unspoken sorting algorithm. If you input them in the wrong order, the syntax feels entirely broken to a native listener.
 
-**The Sorting Algorithm:** `Opinion` $\rightarrow$ `Size` $\rightarrow$ `Age` $\rightarrow$ `Shape` $\rightarrow$ `Color` $\rightarrow$ `Origin` $\rightarrow$ `Material` $\rightarrow$ `Noun`
+**The Sorting Algorithm:** `Opinion` --> `Size` --> `Age` --> `Shape` --> `Color` --> `Origin` --> `Material` --> `Noun`
 
 :::tip Clean Code Examples
 * **Opinion first, physical specs second:** "A **powerful new 15-inch** Mac." *(Not: A 15-inch new powerful Mac)*.
@@ -97,7 +97,7 @@ Sometimes you don't want to ask a full question; you just want to run a boolean 
 *(Hint: A checksum tag only uses the Aux Gate + Pronoun. Drop the extra words).*
 
 **4. (Array Sorting):** "I bought a black new sleek Samsung T9 SSD."
-*(Hint: Sort by Opinion $\rightarrow$ Age $\rightarrow$ Color).*
+*(Hint: Sort by Opinion --> Age --> Color).*
 
 **5. (Volume/Article):** "A traffic in Brookefield is always terrible at 6 PM."
 
@@ -112,7 +112,7 @@ Sometimes you don't want to ask a full question; you just want to run a boolean 
 *(Hint: 'Fill in for' is an inseparable 3-part block. The pronoun must stay at the end here!)*
 
 **10. (Array Sorting):** "We need to replace the wooden old broken desk in the office."
-*(Hint: Opinion $\rightarrow$ Age $\rightarrow$ Material).*
+*(Hint: Opinion --> Age --> Material).*
 
 **11. (Checksum):** "You will follow up on the memory leak tomorrow, won't you?"
 *(Is this clean? Validate the Checksum logic).*

@@ -16,7 +16,7 @@ sidebar_position: 16
 * **Logic:** A Checksum query strictly requires only the inverse logic gate and the pronoun. Drop the redundant adjective (*ready*).
 
 **4.** * **Clean Code:** "I bought a **sleek new black** Samsung T9 SSD."
-* **Logic:** Array Sorting Algorithm: Opinion (*sleek*) $\rightarrow$ Age (*new*) $\rightarrow$ Color (*black*).
+* **Logic:** Array Sorting Algorithm: Opinion (*sleek*) --> Age (*new*) --> Color (*black*).
 
 **5.** * **Clean Code:** "**The traffic** in Brookefield is always terrible at 6 PM." (Or just "**Traffic** in Brookefield...").
 * **Logic:** *Traffic* is uncountable. It cannot take the integer prefix *A*. Use *The* because you are pointing to a cached, specific subset of traffic (in Brookefield).
@@ -34,7 +34,7 @@ sidebar_position: 16
 * **Logic:** *Fill in for* is a 3-part inseparable block. The pronoun must remain at the very end.
 
 **10.** * **Clean Code:** "We need to replace the **broken old wooden** desk in the office."
-* **Logic:** Array Sorting Algorithm: Opinion (*broken*) $\rightarrow$ Age (*old*) $\rightarrow$ Material (*wooden*).
+* **Logic:** Array Sorting Algorithm: Opinion (*broken*) --> Age (*old*) --> Material (*wooden*).
 
 **11.** * **Clean Code:** "You will follow up on the memory leak tomorrow, **won't you?**"
 * **Logic:** The code is completely clean. Positive modal statement (`will`) gets a negative modal checksum (`won't`).
@@ -49,7 +49,7 @@ sidebar_position: 16
 * **Logic:** Negative statement (`hasn't`) strictly requires a positive checksum (`has`). 
 
 **15.** * **Clean Code:** "She drives an **expensive fast German** car."
-* **Logic:** Array Sorting Algorithm: Opinion (*expensive, fast*) $\rightarrow$ Origin (*German*). 
+* **Logic:** Array Sorting Algorithm: Opinion (*expensive, fast*) --> Origin (*German*). 
 
 **16.** * **Clean Code:** "I love **animated movies** with emotional depth."
 * **Logic:** You are talking about a universal preference, not a specific, cached set of movies on your hard drive. Use the Null Article (drop *the*).
@@ -64,4 +64,4 @@ sidebar_position: 16
 * **Logic:** The code is clean! Universal scope requires the Null Article. No *the* is needed.
 
 **20.** * **Clean Code:** "I bought the **new 15-inch** MacBook Air. I will **pick it up** tomorrow. It is very fast, **isn't it?**"
-* **Logic:** 1. Array Sort (Age $\rightarrow$ Size). 2. Code Split (Pronoun strictly inside *pick up*). 3. Checksum (Drop the adjective *fast*).
+* **Logic:** 1. Array Sort (Age --> Size). 2. Code Split (Pronoun strictly inside *pick up*). 3. Checksum (Drop the adjective *fast*).

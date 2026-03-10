@@ -35,13 +35,13 @@ These are actions that MUST transfer their energy to a target object. If you do 
 * **The Code Signature:** `Subject + Verb + [Target Object]`
 
 **Corporate API Examples:**
-* **Approve:** "The manager **approved**..." (Approved *what?*) $\rightarrow$ "...**the budget**."
-* **Resolve:** "IT **resolved**..." (Resolved *what?*) $\rightarrow$ "...**the server outage**."
-* **Schedule:** "Let's **schedule**..." (Schedule *what?*) $\rightarrow$ "...**a sync**."
+* **Approve:** "The manager **approved**..." (Approved *what?*) --> "...**the budget**."
+* **Resolve:** "IT **resolved**..." (Resolved *what?*) --> "...**the server outage**."
+* **Schedule:** "Let's **schedule**..." (Schedule *what?*) --> "...**a sync**."
 
 **Casual API Examples:**
-* **Enjoy:** "I really **enjoyed**..." (Enjoyed *what?*) $\rightarrow$ "...**the movie**."
-* **Whip up:** "My brother **whipped up**..." (Whipped up *what?*) $\rightarrow$ "...**dinner**."
+* **Enjoy:** "I really **enjoyed**..." (Enjoyed *what?*) --> "...**the movie**."
+* **Whip up:** "My brother **whipped up**..." (Whipped up *what?*) --> "...**dinner**."
 
 ### 2. Intransitive Verbs ("Standalone Functions")
 These are self-contained actions. They do NOT take a direct object. If you try to force an object immediately after them without a Preposition (a routing pointer), the system throws a fatal syntax error.
@@ -75,8 +75,8 @@ Why do we need to know this? Because of this strict architectural rule:
 
 > **You can ONLY compile a Passive sentence using a Transitive verb.** > Because the Passive Voice requires moving the "Target Object" to the front of the sentence, if a verb doesn't *have* an object, the passive compilation is mathematically impossible.
 
-* **Valid Compilation (Transitive):** * *Active:* "Deepak **deployed** the code." $\rightarrow$ *Passive:* "The code **was deployed**."
-* **Fatal Error (Intransitive):** * *Active:* "The server **crashed**." $\rightarrow$ *Passive:* **ERROR.** You cannot say "The server was crashed." The system will reject it.
+* **Valid Compilation (Transitive):** * *Active:* "Deepak **deployed** the code." --> *Passive:* "The code **was deployed**."
+* **Fatal Error (Intransitive):** * *Active:* "The server **crashed**." --> *Passive:* **ERROR.** You cannot say "The server was crashed." The system will reject it.
 
 ---
 

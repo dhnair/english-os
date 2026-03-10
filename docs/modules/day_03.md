@@ -64,9 +64,9 @@ These 50 Standard API commands are highly predictable. To compile them into the 
 *(Note: We have excluded the Continuous [-ing] and Singular [-s] forms from these reference tables, as they are constant across almost all verbs).*
 
 :::info The Spelling Overrides
-* If it ends in `e` (Update), just add `d` $\rightarrow$ Updated.
-* If it ends in consonant + `y` (Try), drop the `y` and add `ied` $\rightarrow$ Tried.
-* If it ends in a short vowel + consonant (Stop), double the consonant $\rightarrow$ Stopped.
+* If it ends in `e` (Update), just add `d` --> Updated.
+* If it ends in consonant + `y` (Try), drop the `y` and add `ied` --> Tried.
+* If it ends in a short vowel + consonant (Stop), double the consonant --> Stopped.
 :::
 
 | Base Form (V1) | Simple Past (V2) | Past Participle (V3) |

@@ -103,5 +103,5 @@ sidebar_position: 14
 * **Clean Code:** He said he **used** pink salt to make his oats taste better.
 
 **25.**
-* **The Logic:** Triple Backshift. `am` $\rightarrow$ `was`. `will` $\rightarrow$ `would`. `can't` $\rightarrow$ `couldn't`. `already signed` $\rightarrow$ `had already signed`.
+* **The Logic:** Triple Backshift. `am` --> `was`. `will` --> `would`. `can't` --> `couldn't`. `already signed` --> `had already signed`.
 * **Clean Code:** He said **although** he **was** a freelancer, he **would touch base** with the team. He added that he **couldn't back out** then because he **had already signed** the contract.

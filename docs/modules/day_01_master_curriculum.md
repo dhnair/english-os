@@ -124,13 +124,13 @@ These are categorized into Primary Gates (which change the timeline) and Modal G
 ### 2. The 4 Hardcoded Execution Rules
 You never have to guess which verb form to use. If you see a word from the inventory above, it must follow one of these 4 strict routing rules:
 
-* **Rule 1: The "BE" Gate $\rightarrow$ Triggers V4 (-ing)**
+* **Rule 1: The "BE" Gate --> Triggers V4 (-ing)**
     * *Example:* The director **is reviewing** (V4) the proposal.
-* **Rule 2: The "HAVE" Gate $\rightarrow$ Triggers V3 (Participle)**
+* **Rule 2: The "HAVE" Gate --> Triggers V3 (Participle)**
     * *Example:* The vendor **has signed** (V3) the NDA.
-* **Rule 3: The "MODAL" Gate $\rightarrow$ Triggers V1 (Base)**
+* **Rule 3: The "MODAL" Gate --> Triggers V1 (Base)**
     * *Example:* We **must optimize** (V1) the workflow. (Applies to all 12 Modals).
-* **Rule 4: The "DO" Gate $\rightarrow$ Triggers V1 (Base)**
+* **Rule 4: The "DO" Gate --> Triggers V1 (Base)**
     * *Example:* **Did** the client **approve** (V1) the mockup?
 
 > **Debugging Tip:** If a sentence has multiple Logic Gates stacked together, the *first* gate dictates the tense, and the *last* gate triggers the main verb. 
@@ -251,7 +251,7 @@ Patching the final micro-bugs in your code structure.
     * *Universal Fact:* "**Software** is expensive." (Null)
     * *Unspecified:* "I need **some software**." (Some/Any)
     * *Cached Pointer:* "Restart **the software**." (The)
-* **2. Array Sorting (Adjectives):** The strict background algorithm: `Opinion` $\rightarrow$ `Size` $\rightarrow$ `Age` $\rightarrow$ `Color` $\rightarrow$ `Noun`. 
+* **2. Array Sorting (Adjectives):** The strict background algorithm: `Opinion` --> `Size` --> `Age` --> `Color` --> `Noun`. 
     * *Execution:* "A sleek new black laptop."
 * **3. Code Splitting (Phrasal Verbs):** If passing a pronoun (`it`, `them`), it strictly must split the phrasal verb.
     * *Execution:* "Turn **it** on." (Not: Turn on it).

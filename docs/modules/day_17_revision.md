@@ -32,9 +32,9 @@ Test your ability to initialize new variables versus pointing to cached data.
 * What state does the `HAVE` gate force? *(V3)*
 
 **4. Tier 1 Master Architecture:** Take a base variable like "My sister learns Python." Force yourself to cycle it through the 5 Core Tenses by reacting to these time triggers:
-* *Trigger:* "Every day." $\rightarrow$ *Execution:* "She learns Python."
-* *Trigger:* "Right now." $\rightarrow$ *Execution:* "She is learning Python."
-* *Trigger:* "Yesterday." $\rightarrow$ *Execution:* "She learned Python."
+* *Trigger:* "Every day." --> *Execution:* "She learns Python."
+* *Trigger:* "Right now." --> *Execution:* "She is learning Python."
+* *Trigger:* "Yesterday." --> *Execution:* "She learned Python."
 
 ---
 

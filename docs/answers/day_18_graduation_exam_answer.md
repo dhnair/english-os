@@ -10,7 +10,7 @@ sidebar_position: 18
 **1. B** (will start) — *Level 1 Conditional.*
 **2. B** (scoping out) — *'To' is a preposition here; forces a Gerund.*
 **3. C** (which) — *Non-essential relative clause for an object.*
-**4. A** (sleek new black) — *Array Sorting: Opinion $\rightarrow$ Age $\rightarrow$ Color.*
+**4. A** (sleek new black) — *Array Sorting: Opinion --> Age --> Color.*
 **5. C** (had pushed) — *Reported Speech backshift from past/present perfect.*
 **6. C** (rewrite) — *'Make' is a Causative that forces the raw V1 state.*
 **7. C** (were) — *Level 2 Conditional (Sandbox).*
@@ -78,7 +78,7 @@ sidebar_position: 18
 
 **49. The Hardware Audit:**
 "My 2019 MacBook Pro, **which** I use for work, is slowing down. I thought about **buying** an **expensive fast new** one. If I have the money, I will buy the M5 model. However, I decided to sleep on it."
-*(Fixes: 'Which' for non-essential, drop 'it' for Double Variable, Preposition override 'about buying', Array Sorting [Opinion $\rightarrow$ Speed $\rightarrow$ Age], 'Sleep on it' is perfectly clean code!)*
+*(Fixes: 'Which' for non-essential, drop 'it' for Double Variable, Preposition override 'about buying', Array Sorting [Opinion --> Speed --> Age], 'Sleep on it' is perfectly clean code!)*
 
 **50. The Final Summary:**
 "Although the training was hard, it turned out great. I learned how to use passive voice and how to factor in complex logic, **didn't I**? I look forward to **using** these rules. I will have the system **run** perfectly soon."
